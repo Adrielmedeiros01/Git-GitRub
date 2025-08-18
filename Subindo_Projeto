@@ -21,8 +21,6 @@ git remote add origin url-https_do_teu_repositório.git
 
 (Aqui ele vai pedir nome do usuário e token_de_acesso{disponível no Github})
 
-
-
 git push -u origin main (Para adicionar o repositório local para o remoto);
 
 
@@ -42,6 +40,13 @@ Agora, Se tu não liga pro que tá no GitHub (quer sobrescrever tudo com o que t
 
 git push -u origin main --force
 
+------------------------------------------------------------------------------------------------
+
+Fluxo padrão depois da primeira config: 
+
+git add .
+git commit -m "EX: adicionei página de cadastro de usuário"
+git push -u origin main
 
 
 
