@@ -1,0 +1,50 @@
+
+----------------------------------------
+Subindo projeto para o Github:
+----------------------------------------
+
+git init (Iniciar: os arquivos ficarão verdinhos);
+
+git add README.md (ou criar o arquivo no diretório);     
+
+touch .gitignore  {ignora todos os arquivos que você colocar} (ou criar o arquivo no diretório);
+
+git add . (preparando todos os arquivo para fazer o commit);
+
+git commit -m "Nome_Q_quiser" (Agora os arquivos ficarão branquinhos e serão enviados para área de envio);
+
+git branch (para saber em qual você está: MAIN ou MASTER) se tiver no MASTER altere para o MAIN com o comando a seguir;
+
+git branch -M main 
+
+git remote add origin url-https_do_teu_repositório.git
+
+(Aqui ele vai pedir nome do usuário e token_de_acesso{disponível no Github})
+
+
+
+git push -u origin main (Para adicionar o repositório local para o remoto);
+
+
+-----------------------------------------------------------------------------------------
+
+Se tu quer juntar o que tá no GitHub com o que tu tem localmente, digite:
+
+git pull origin main --rebase
+
+Depois manda de volta para o repositório remoto:
+
+git push -u origin main
+
+-----------------------------------------------------------------------------------------
+
+Agora, Se tu não liga pro que tá no GitHub (quer sobrescrever tudo com o que tá no teu PC):
+
+git push -u origin main --force
+
+
+
+
+
+
+
