@@ -19,7 +19,17 @@ git branch -M main
 
 git remote add origin url-https_do_teu_repositório.git
 
-(Aqui ele vai pedir nome do usuário e token_de_acesso{disponível no Github})
+
+-----------------------------------------------------------------------------------------
+
+(Aqui ele vai pedir nome do usuário e token_de_acesso{disponível no Github}) disponível em:
+
+
+Seu perfil -> Settings -> SSH and GPG keys -> Develop Settings -> Personal access tokens -> tokens classic 
+-> generate new token classic -> Select scopes: repo -> generate token
+
+
+-----------------------------------------------------------------------------------------
 
 git push -u origin main (Para adicionar o repositório local para o remoto);
 
