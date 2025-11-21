@@ -19,6 +19,11 @@ git branch -M main
 
 git remote add origin url-https_do_teu_repositório.git
 
+Caso queira trocar esse link (se já for existente) digite o comando abaixo:
+
+git remote set-url origin https://github.com/Adrielmedeiros01/ProfAdrielMedeiros.git
+
+
 
 -----------------------------------------------------------------------------------------
 
