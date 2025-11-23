@@ -23,6 +23,7 @@ Caso queira trocar esse link (se já for existente) digite o comando abaixo:
 
 git remote set-url origin https://github.com/Adrielmedeiros01/ProfAdrielMedeiros.git
 
+git remote -v (Verifica a existência do repositório (Se não aparecer nada é pq não tem.))
 
 
 -----------------------------------------------------------------------------------------
