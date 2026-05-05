@@ -80,7 +80,65 @@ estará fazendo um commit;
 * GitHub => kanban dentro do github: Aula 05/05/2026 (Projeto Wwb)
 
    - Papel de QA = Garantia de qualidade;
-   - 
+   - Garantir a qualidade do produto como um todo;
+
+  
+           🧠 O que um QA realmente faz
+               ✔️ 1. Previne problemas (não só encontra)
+                  
+                     Um bom QA trabalha antes mesmo do código existir:
+                     
+                     Analisa requisitos
+                     Questiona regras de negócio
+                     Identifica falhas de lógica
+                     
+                     👉 Exemplo: “E se o usuário enviar um campo vazio?”
+                     Se ninguém pensou nisso, o QA levanta antes de virar bug.
+            
+               ✔️ 2. Testa o sistema
+            
+                     Aqui entra o que todo mundo conhece:
+                     
+                     Testes manuais (clicando, validando fluxos)
+                     Testes exploratórios
+                     Testes de regressão
+                     
+                     Mas não é só “clicar” — é testar com intenção:
+                     
+                     Quebrar o sistema
+                     Simular erro de usuário
+                     Validar cenários reais
+     
+               ✔️ 3. Automatiza testes
+            
+                     QA moderno também programa:
+                     
+                     Testes automatizados (JUnit, Cypress, Selenium)
+                     Testes de API (Postman, RestAssured)
+                     Integração com CI/CD
+                     
+                     👉 No seu caso (Spring Boot), por exemplo:
+                     
+                     Testar endpoints REST
+                     Validar respostas JSON
+                     Garantir que o CRUD não quebre
+ 
+     
+               ✔️ 4. Garante qualidade contínua
+            
+                     QA acompanha o projeto inteiro:
+                     
+                     Participa de planning
+                     Define critérios de aceitação
+                     Valida entregas antes de produção
+               ✔️ 5. Comunica problemas
+            
+                     QA não só acha bug — ele explica bem o problema:
+                     
+                     Como reproduzir
+                     O que era esperado
+                     O que aconteceu
+                     Evidências (prints, logs)
 ---------------------------------------------------------------------------
 
 
