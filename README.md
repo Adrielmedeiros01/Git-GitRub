@@ -75,5 +75,12 @@ estará fazendo um commit;
 - Colaboração;
 
 }
+-----------------------------------------------------------------------------
+
+* GitHub => kanban dentro do github: Aula 05/05/2026 (Projeto Wwb)
+
+   - Papel de QA = Garantia de qualidade;
+   - 
+---------------------------------------------------------------------------
 
 
